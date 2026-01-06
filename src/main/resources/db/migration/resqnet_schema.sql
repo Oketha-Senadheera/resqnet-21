@@ -263,3 +263,15 @@ CREATE TABLE IF NOT EXISTS donation_inventory_log (
         REFERENCES collection_points (collection_point_id)
         ON DELETE CASCADE
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
+
+CREATE TABLE IF NOT EXISTS volunteer_assignments (
+    assignment_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    report_id INT NOT NULL,
+    status ENUM('Assigned', 'Completed') DEFAULT 'Assigned',
+    notes TEXT,
+    assigned_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_assignment_volunteer FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE,
+    CONSTRAINT fk_assignment_report FOREIGN KEY (report_id) REFERENCES disaster_reports (report_id) ON DELETE CASCADE,
+    UNIQUE KEY uq_assignment_user_report (user_id, report_id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;

@@ -63,6 +63,14 @@
   navItems.add(item);
 
   item = new java.util.HashMap<>();
+  item.put("section", "ongoing-disasters");
+  item.put("icon", "life-buoy");
+  item.put("label", "Ongoing Disasters");
+  item.put("link", "volunteer/ongoing-disasters");
+  item.put("active", "ongoing-disasters".equals(activePageVal));
+  navItems.add(item);
+
+  item = new java.util.HashMap<>();
   item.put("section", "forum");
   item.put("icon", "message-circle");
   item.put("label", "Forum");
