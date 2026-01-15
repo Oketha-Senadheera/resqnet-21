@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fb6dc1-325b-433b-9436-866e8754f9c1" name="Changes" comment="assign disasters">
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+    <list default="true" id="04fb6dc1-325b-433b-9436-866e8754f9c1" name="Changes" comment="Map Integration (General public &amp; DMC)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/resqnet/controller/DemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resqnet/controller/DemoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/resqnet/controller/general/DashboardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resqnet/controller/general/DashboardServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dmc/demo/safe-locations.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dmc/demo/safe-locations.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/general-user/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/general-user/dashboard.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -226,7 +222,9 @@
       <workItem from="1768266729015" duration="1192000" />
       <workItem from="1768325784716" duration="13000" />
       <workItem from="1768468772450" duration="2371000" />
-      <workItem from="1768472485863" duration="345000" />
+      <workItem from="1768472485863" duration="441000" />
+      <workItem from="1768473514138" duration="807000" />
+      <workItem from="1768474358256" duration="271000" />
     </task>
     <task id="LOCAL-00001" summary="assign disasters">
       <option name="closed" value="true" />
@@ -252,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767924257585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Map Integration (General public &amp; DMC)">
+      <option name="closed" value="true" />
+      <created>1768472899933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768472899933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +277,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="assign disasters" />
-    <option name="LAST_COMMIT_MESSAGE" value="assign disasters" />
+    <MESSAGE value="Map Integration (General public &amp; DMC)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map Integration (General public &amp; DMC)" />
   </component>
 </project>

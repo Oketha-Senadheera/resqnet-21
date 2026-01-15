@@ -3,8 +3,7 @@ package com.resqnet.controller.general;
 import com.resqnet.model.Role;
 import com.resqnet.model.User;
 import com.resqnet.model.dao.GeneralUserDAO;
-import com.resqnet.dao.SafeLocationDAO;
-import com.resqnet.dao.SafeLocationDAOImpl;
+import com.resqnet.model.dao.SafeLocationDAOImpl;
 import java.util.List;
 import com.resqnet.model.SafeLocation;
 
